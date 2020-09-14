@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CoreApi.Contract\CoreApi.Contract.csproj" />
+      <ProjectReference Include="..\CoreApi.Entity\CoreApi.Entity.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="10.0.0" />
+      <PackageReference Include="BCrypt.Net-Next" Version="4.0.0" />
+      <PackageReference Include="JetBrains.Annotations" Version="2020.1.0" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+﻿using System;
+
+namespace CoreApi.Contract
+{
+    [Serializable]
+    public class LoginResponseContract
+    {
+        public string AccessToken { get; set; }
+        public int? ExpiresIn { get; set; }
+        public string TokenType { get; set; }
+    }
+}
